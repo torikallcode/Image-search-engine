@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Image Search engine</title>
+</head>
+<body class="bg-[#EEEEEE]">
+    <section class="flex justify-center items-center mx-auto w-full px-3">
+        <main class="flex flex-col justify-center items-center mt-32 w-full">
+            <h1 class="font-sans text-3xl text-[#393E46] font-extrabold p-2 mb-11">Find your image</h1>
+            <form id="search-form" class="bg-[#393E46] pl-5 rounded-lg max-w-md lg:max-w-xl w-full flex justify-between items-center overflow-hidden">
+                <input type="text" placeholder="Masukkan text" id="search-box" class="border-none bg-transparent outline-none w-full font-sans text-base font-medium text-[#EEEEEE]">
+                <button class="bg-[#00ADB5] p-3 text-lg font-sans font-medium text-[#EEEEEE] h-full">Goo!!</button>
+            </form>
+            <div id="search-result" class="w-[100%] lg:w-[80%] mx-auto mt-[100px] mb-[50px] grid grid-cols-2 lg:grid-cols-3 gap-2 lg:gap-[40px]"></div>
+            <button id="search-button" class="bg-[#00ADB5] hidden m-3 px-3 py-2 text-base text-[#EEEEEE] font-medium rounded-lg">Show more</button>
+        </main>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

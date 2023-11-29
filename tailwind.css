@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+
+@import "tailwindcss/utilities";
+
+#search-result img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 17px;
+}
